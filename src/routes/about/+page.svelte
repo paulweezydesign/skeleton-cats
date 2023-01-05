@@ -12,5 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum sit suscipit a
      
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt similique tempora asperiores enim doloribus esse?
     </div>
-
+    <div class="card card-hover card-glass-primary">
+        <img src="" alt="" />
+    </div>
 </div>
