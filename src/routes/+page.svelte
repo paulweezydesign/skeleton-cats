@@ -22,18 +22,9 @@ let	name = "weezy"
 </div>
 </div>
 <style>
-	.div1 {
-		
-background-color:hsla(309,100%,50%,1);
-background-image:
-radial-gradient(at 40% 20%, hsla(132,100%,37%,1) 0px, transparent 50%),
-radial-gradient(at 80% 0%, rgb(166, 88, 214) 0px, transparent 50%),
-radial-gradient(at 0% 50%, hsla(217,100%,38%,1) 0px, transparent 50%),
-radial-gradient(at 80% 50%, hsla(312,100%,60%,1) 0px, transparent 50%),
-radial-gradient(at 0% 100%, hsla(122,100%,77%,1) 0px, transparent 50%),
-radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
-radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
-
+	.layout {
+		@apply container h-full mx-auto flex justify-center items-center;
 	}
+
 	
 </style>

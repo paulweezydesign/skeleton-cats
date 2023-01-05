@@ -1,0 +1,20 @@
+
+
+/ /.netlify/functions/index 200
+//__data.json /.netlify/functions/index 200
+/about /.netlify/functions/about 200
+/about/__data.json /.netlify/functions/about 200
+/contact /.netlify/functions/contact 200
+/contact/__data.json /.netlify/functions/contact 200
+/kittens /.netlify/functions/kittens 200
+/kittens/__data.json /.netlify/functions/kittens 200
+/kittens/bean /.netlify/functions/kittens-bean 200
+/kittens/bean/__data.json /.netlify/functions/kittens-bean 200
+/kittens/filaberta /.netlify/functions/kittens-filaberta 200
+/kittens/filaberta/__data.json /.netlify/functions/kittens-filaberta 200
+/kittens/garfield /.netlify/functions/kittens-garfield 200
+/kittens/garfield/__data.json /.netlify/functions/kittens-garfield 200
+/kittens/pancake /.netlify/functions/kittens-pancake 200
+/kittens/pancake/__data.json /.netlify/functions/kittens-pancake 200
+/kittens/rocket /.netlify/functions/kittens-rocket 200
+/kittens/rocket/__data.json /.netlify/functions/kittens-rocket 200
