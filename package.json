@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@netlify/functions": "^1.4.0",
 		"@sveltejs/adapter-netlify": "^1.0.0",
 		"open-props": "^1.5.3"
 	}
