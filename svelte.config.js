@@ -3,24 +3,24 @@ import preprocess from "svelte-preprocess";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		adapter: adapter({
-		  edge: false,
-		  split: true
-		})
-	  },
-	preprocess: [
-		preprocess({
-			postcss: true,
-		}),
-	],
-	vitePlugin: {
-		experimental: {
-			inspector: {
-				holdMode: true,
-			}
-		}
-	}		
+    kit: {
+        adapter: adapter({
+            edge: true,
+            split: true
+        })
+    },
+    preprocess: [
+        preprocess({
+            postcss: true,
+        }),
+    ],
+    vitePlugin: {
+        experimental: {
+            inspector: {
+                holdMode: true,
+            }
+        }
+    }
 
 };
 
