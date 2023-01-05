@@ -1,5 +1,8 @@
-export default async(request) => {
-    return new Response("Hello, World!", {
-        headers: { "content-type": "text/html" },
-    });
-};
+exports.handler = async(event, context) => {
+    return {
+        statusCode: 200,
+        body: JSON.stringify({
+            message: 'Hello from Weezy!'
+        }),
+    };
+}
